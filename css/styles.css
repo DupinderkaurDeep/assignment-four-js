@@ -1,0 +1,150 @@
+body {
+    font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: normal;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+label {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: calc(100% - 120px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1em;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4cafa7;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4592a0;
+}
+
+
+#recipeData {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+
+h2, h3 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.student-info {
+    margin-top: 20px;
+    font-style: italic;
+    color: #666;
+    font-size: 0.9em;
+}
+
+
+
+#recipeData {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-top: 30px;
+}
+
+#recipeData p {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+#recipeData h2 {
+    font-size: 1.5em;
+    color: #4cafa7;
+}
+
+#recipeData h3 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+
+#recipeImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+
+.nutrition-info {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.nutrition-info p {
+    margin-bottom: 8px;
+}
+
+
+.student-info {
+    margin-top: 30px;
+    font-style: italic;
+    color: #999;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.container:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}

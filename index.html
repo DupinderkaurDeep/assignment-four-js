@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Search</title>
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Jersey+25&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <label for="searchInput">Enter Recipe Name:</label>
+        <input type="text" id="searchInput">
+        <button id="searchButton">Search</button>
+    </div>
+    
+    <div id="recipeData">
+        <h2>Recipe Information</h2>
+        <p><strong>ID:</strong> <span id="recipeId"></span></p>
+        <p><strong>Title:</strong> <span id="recipeTitle"></span></p>
+        <p><strong>Image Type:</strong> <span id="recipeImageType"></span></p>
+        <img src="" alt="" id="recipeImage" style="max-width: 200px;">
+        <h3>Nutrition Information</h3>
+        <p><strong>Calories:</strong> <span id="calories"></span></p>
+        <p><strong>Carbs:</strong> <span id="carbs"></span></p>
+        <p><strong>Fat:</strong> <span id="fat"></span></p>
+        <p><strong>Protein:</strong> <span id="protein"></span></p>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
